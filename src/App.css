@@ -8,7 +8,7 @@
 }
 .root{
   width: 250px;
-  height: 450px;
+  height: 500px;
   margin: 10px;
   margin-bottom: 40px;
   cursor: pointer;
@@ -19,6 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .root>img{
   width: 100%;
@@ -46,4 +47,34 @@
   font-size: 30px;
   cursor: pointer;
   margin: 10px;
+}
+.btn{
+  background-color: rgb(27, 145, 145);
+  font-size: 17px;
+  border: 1px solid;
+  padding: 5px 45px;
+  border-radius: 10px;
+  margin-top: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  &:hover{
+    background-color: rgba(27, 145, 145, 0.713);
+  }
+}
+.num{
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
